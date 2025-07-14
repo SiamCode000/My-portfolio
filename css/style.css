@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0; 
+  padding: 0;
+  background-color: rgb(4, 4, 79);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(7, 7, 47);
+  /* height: 60px; */
+}
+.left{
+    font-size: 1.6rem;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 19px;
+  font-size: 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+.FirstSection{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.FirstSection div{
+    width: 29%;
+    background-color: red;
+}

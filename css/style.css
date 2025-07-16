@@ -66,104 +66,53 @@ main .FirstSection .right_section img {
   font-size: 60px;
   font-weight: 40px;
 }
-#element{
+#element {
   font-size: 50px;
 }
-hr{
+hr {
   border: 0;
   height: 3.2px;
   background: rgba(32, 29, 118, 0.605);
   margin-top: 59px;
 }
-.SecondSection{
+.SecondSection {
   margin: auto;
   max-width: 1200px;
 }
-.SecondSection,.ThirdSection h1{
+.SecondSection,
+.ThirdSection h1 {
   text-align: center;
 }
-.card{
+.card {
   border: 1px solid rgb(8, 8, 135);
   border-radius: 5%;
-  background-color:rgb(8, 8, 135);
-  width:300px
+  background-color: rgb(8, 8, 135);
+  width: 300px;
 }
-.card h2,p{
+.card h2,
+p {
   padding: 5px;
 }
-.card:hover{
+.card:hover {
   cursor: pointer;
   background-color: rgb(13, 13, 116);
 }
-.cards{
-  
+.cards {
   display: flex;
   justify-content: space-between;
 }
-/* General Section Styling */
-.ThirdSection {
-    padding: 60px 20px;
-    background-color: (4, 4, 79);
-    text-align: center;
+.connect {
+  margin-top: 80px;
+  text-align: center;
 }
 
-
-.ThirdSection h1 {
-    color:white;
-    margin-bottom: 40px;
+.connect h1 a {
+  color: white;
+  margin-bottom: 40px;
+  text-decoration: none;
 }
-
-/* Form Box Styling */
-.form-box {
-    max-width: 500px;
-    margin: 0 auto;
-    background: rgb(4, 4, 125);
-    padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-}
-
-/* Form Elements */
-.form-box form {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.form-box label {
-    text-align: left;
-    font-weight: 600;
-    color: white;
-}
-
- 
-.form-box input{
-    padding: 12px 15px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    font-size: 1rem;
-    transition: border-color 0.3s ease;
-}
-
-.form-box input:focus {
-    outline: none;
-    border-color: #4FBDBA;
-}
-
-/* Button Styling */
-.form-box button{
-  margin-top: 5px;
-    padding: 14px;
-    background-color: #4FBDBA;
-    color: #fff;
-    font-size: 1rem;
-    font-weight: bold;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.form-box button:hover {
-    background-color: #3a9d9a;
+.connect h1 a:hover {
+  text-decoration: underline;
+  color: rgb(40, 67, 187);
+  transition: color 0.3s ease, border-bottom 0.3s ease;
 }

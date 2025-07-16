@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(4, 4, 79);
+            color: white;
+            font-family: "Poppins", sans-serif;
+        }
+
+        .container {
+            margin-top: 127px;
+        }
+
+        .form-box {
+            max-width: 500px;
+            margin: 0 auto;
+            background: rgb(4, 4, 125);
+            padding: 50px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Form Elements */
+        .form-box form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .form-box label {
+            text-align: left;
+            font-weight: 600;
+            color: white;
+        }
+
+        .form-box input {
+            padding: 12px 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-box input:focus {
+            outline: none;
+            border-color: #4fbdba;
+        }
+
+        .form-box button {
+            margin-top: 5px;
+            padding: 14px;
+            background-color: #4fbdba;
+            color: #fff;
+            font-size: 1rem;
+            font-weight: bold;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .form-box button:hover {
+            background-color: #3a9d9a;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-box">
+            <form action="">
+                <label for="name">Your name</label>
+                <input type="text" name="name" id="Name">
+                <label for="email">Your Email</label>
+                <input type="email" name="email" id="Email">
+                <label for="phone">Your Phonenumber</label>
+                <input type="tel" name="phone" id="">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
